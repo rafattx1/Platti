@@ -1,0 +1,12 @@
+# GitHub Pages Configuration
+theme: null
+plugins: []
+
+# Site info
+title: PLATTI
+description: Sites com a cara do seu negócio
+url: https://platti.com.br
+repository: seu-usuario/platti
+
+# Build settings
+markdown: kramdown
