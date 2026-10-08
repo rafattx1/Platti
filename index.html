@@ -1188,6 +1188,10 @@ body{padding:var(--frame-gap)}
 /* V52: mais respiro acima da frase do topo */
 .city-hero{padding-top:104px}
 @media(max-width:760px){.city-hero{padding-top:72px}.city-hero .city-stage{margin-top:260px}}
+
+/* V54: Carlos Henrique entra na equipe. Quatro crachás lado a lado em telas largas; em telas médias ficam 2 + 2. */
+@media(min-width:901px){.team-badges{grid-template-columns:repeat(2,minmax(0,1fr));max-width:760px;gap:44px 56px}}
+@media(min-width:1280px){.team-badges{grid-template-columns:repeat(4,minmax(0,1fr));max-width:none;gap:36px}.badge-frame{aspect-ratio:400/306}.badge-body{grid-template-columns:38% minmax(0,1fr);gap:8px;padding:9px 9px 8px}.badge-info strong{font-size:15.5px}.badge-dept{font-size:9.5px;white-space:normal}.badge-info small{font-size:10.5px}}
 </style>
 </head>
 <body id="inicio">
@@ -1479,6 +1483,49 @@ body{padding:var(--frame-gap)}
 <span class="sticker s-square" style="--sb:#FF8A65;--sc:#0E1B3D" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4a1 1 0 0 0 1 1h3l6 4V5L7 9H4a1 1 0 0 0-1 1Z"/><path d="M17 8.5a5 5 0 0 1 0 7M19.5 6a8.5 8.5 0 0 1 0 12"/></svg></span>
 <span class="sticker s-pill" aria-hidden="true">VIRALIZA</span>
 <span class="sticker s-round" style="--sb:#B7CCFF;--sc:#0E1B3D" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.5-4A8 8 0 1 1 9 19.5Z"/></svg></span>
+</div>
+</div>
+</li><li class="member" data-name="Carlos Henrique" data-role="Negócios e sites" style="--frame:#FFDF6B;--photo:#FFF4C9;--i:3">
+<button class="member-hit" type="button" aria-label="Carlos Henrique, Negócios e sites"></button>
+<div class="badge-swing">
+<span class="lanyard" aria-hidden="true"><i class="pin pin-a"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11Z"/></svg></i><i class="pin pin-b"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 16.9 5.9 20.4l1.5-6.8L2.2 9l6.9-.7Z"/></svg></i><b class="clip"></b></span>
+<div class="badge-frame"><svg class="badge-grass" viewBox="0 0 400 270" preserveAspectRatio="none" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 60l3-7 3 7M14 130l3-7 3 7M18 205l3-7 3 7M380 80l3-7 3 7M378 160l3-7 3 7M382 230l3-7 3 7M70 258l3-6 3 6M150 260l3-6 3 6M250 258l3-6 3 6M330 260l3-6 3 6M60 22l3-6 3 6M330 22l3-6 3 6"/></g></svg><i class="flower" style="left:9px;top:42%" aria-hidden="true"></i><i class="flower" style="right:9px;top:26%" aria-hidden="true"></i><i class="flower" style="right:12px;bottom:18%" aria-hidden="true"></i><i class="flower" style="left:30%;bottom:6px" aria-hidden="true"></i><i class="flower" style="left:72%;top:7px" aria-hidden="true"></i><i class="flower" style="left:16%;top:8px" aria-hidden="true"></i><span class="slots" aria-hidden="true"><i></i><i></i><i></i></span>
+<div class="badge-card">
+<div class="badge-top"><img class="badge-wordmark" alt="PLATTI" data-wordmark></div>
+<div class="badge-body"><div class="badge-photo"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><defs>
+<radialGradient id="cask" cx="46%" cy="38%" r="68%"><stop offset="0" stop-color="#E8B48C"/><stop offset=".62" stop-color="#CF9466"/><stop offset="1" stop-color="#A86C45"/></radialGradient>
+<linearGradient id="cank" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A86C45"/><stop offset="1" stop-color="#CF9466"/></linearGradient>
+<linearGradient id="cahr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A2A22"/><stop offset=".6" stop-color="#17110E"/></linearGradient>
+<radialGradient id="cair" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#8A5A34"/><stop offset=".55" stop-color="#3B2414"/><stop offset="1" stop-color="#1C1009"/></radialGradient>
+<linearGradient id="cash" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B3940"/><stop offset="1" stop-color="#111315"/></linearGradient>
+</defs>
+<path d="M14 200C18 170 50 157 100 157S182 170 186 200Z" fill="url(#cash)"/>
+<path d="M79 116V158Q100 171 121 158V116Z" fill="url(#cank)"/>
+<path d="M77 156Q100 176 123 156" fill="none" stroke="#08080A" stroke-width="5" stroke-linecap="round"/>
+<path d="M81 158.5Q100 172 119 158.5" fill="none" stroke="#2B2D31" stroke-width="1.6"/>
+<ellipse cx="52" cy="99" rx="10" ry="15" fill="#CF9466"/><path d="M50 92Q45 99 51 107" fill="none" stroke="#A86C45" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="148" cy="99" rx="10" ry="15" fill="#CF9466"/><path d="M150 92Q155 99 149 107" fill="none" stroke="#A86C45" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 36C134 36 150 60 150 95C150 129 130 153 100 153S50 129 50 95C50 60 66 36 100 36Z" fill="url(#cask)"/>
+<path d="M56 112Q60 140 84 149Q100 155 116 149Q140 140 144 112Q138 132 120 138Q100 142 80 138Q62 132 56 112Z" fill="#17110E" opacity=".16"/>
+<ellipse cx="73" cy="118" rx="10" ry="6" fill="#D9604F" opacity=".16"/><ellipse cx="127" cy="118" rx="10" ry="6" fill="#D9604F" opacity=".16"/>
+<ellipse cx="100" cy="112" rx="8" ry="5.2" fill="#A86C45" opacity=".55"/><ellipse cx="99" cy="108.5" rx="3.4" ry="2.2" fill="#fff" opacity=".3"/>
+<ellipse cx="96.2" cy="114" rx="1.6" ry="1" fill="#5E3220" opacity=".6"/><ellipse cx="103.8" cy="114" rx="1.6" ry="1" fill="#5E3220" opacity=".6"/>
+<path d="M88 123Q100 119 112 123Q106 125 100 124.6Q94 125 88 123Z" fill="#17110E" opacity=".35"/>
+<path d="M86 130Q100 143 114 130Q100 134 86 130Z" fill="#fff" stroke="#7E3B30" stroke-width="2.6" stroke-linejoin="round"/>
+<ellipse cx="79" cy="97" rx="11" ry="12" fill="#fff"/><circle cx="79" cy="98" r="8.2" fill="url(#cair)"/><circle cx="79" cy="98" r="3.9" fill="#0E0805"/><circle cx="81.6" cy="95" r="2.3" fill="#fff"/><circle cx="76.6" cy="100.6" r="1" fill="#fff" opacity=".7"/>
+<ellipse cx="121" cy="97" rx="11" ry="12" fill="#fff"/><circle cx="121" cy="98" r="8.2" fill="url(#cair)"/><circle cx="121" cy="98" r="3.9" fill="#0E0805"/><circle cx="123.6" cy="95" r="2.3" fill="#fff"/><circle cx="118.6" cy="100.6" r="1" fill="#fff" opacity=".7"/>
+<g fill="#17110E"><path d="M64 80Q78 72 94 77Q94.5 81 92 81.5Q80 78 66 84Z"/><path d="M64 80Q78 72 94 77Q94.5 81 92 81.5Q80 78 66 84Z" transform="matrix(-1 0 0 1 200 0)"/></g>
+<g fill="none" stroke="#14161B" stroke-width="3.2"><rect x="62" y="83" width="34" height="28" rx="11"/><rect x="104" y="83" width="34" height="28" rx="11"/><path d="M96 95Q100 91 104 95M62 93L52 90M138 93L148 90" stroke-linecap="round"/></g>
+<path d="M50 96C45 58 66 28 101 28C136 28 156 56 150 96L146 96C145 80 142 72 137 66Q118 60 98 63Q76 67 59 64C56 72 54 84 54 96Z" fill="url(#cahr)"/>
+<path d="M58 66Q62 36 98 31Q134 30 142 58Q124 47 102 50Q80 54 58 66Z" fill="#2A1E18"/>
+<path d="M72 50Q94 38 124 42M68 58Q92 46 132 50" fill="none" stroke="#5A4234" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+<path d="M50 96C49 88 50 82 52 76L57 78C55 84 54 90 54 96Z M150 96C151 88 150 82 148 76L143 78C145 84 146 90 146 96Z" fill="#A86C45" opacity=".7"/>
+</svg><span class="barcode" aria-hidden="true"></span></div>
+<div class="badge-info"><strong>CARLOS H.</strong><span class="badge-dept">NEGÓCIOS + SITES</span><i class="dash" aria-hidden="true"></i><small>Negócios e sites</small></div></div>
+</div>
+<span class="sticker s-square" style="--sb:#D7FA52;--sc:#0E1B3D" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18"/></svg></span>
+<span class="sticker s-pill" aria-hidden="true">NEGÓCIO FECHADO</span>
+<span class="sticker s-round" style="--sb:#0071E3;--sc:#fff" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l5-5 4 4 7-8"/><path d="M15 8h5v5"/></svg></span>
 </div>
 </div>
 </li>
